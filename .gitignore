@@ -1,0 +1,17 @@
+target/
+*.class
+*.jar
+
+# IDE (Eclipse, IntelliJ, VSCode)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.vscode/
+
+
+.DS_Store
+Thumbs.db
+*.log
