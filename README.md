@@ -19,6 +19,41 @@ Desenvolver um projeto **Maven Java** que execute o seguinte fluxo no console:
    - Exibir no console o número de vezes que a **frase completa** aparece no texto. 
    - Exibir no console o número de vezes que **cada palavra** da frase aparece individualmente.
 
+# Exemplo de Execução - Desafio Sillion
+
+## Saída no Console (Execução Real)
+
+```
+==========================================
+   DESAFIO SILLION - JAVA SCRAPER CLI    
+==========================================
+
+1. Digite a URL: 
+> https://es.wikipedia.org/wiki/Pir%C3%A1mides_de_Egipto
+
+2. Digite a Frase: 
+> bloques de piedra
+
+⏳ Conectando ao site... (Aguarde)
+✅ Texto extraído (16213 caracteres).
+--------------------------------------------------
+📊 RESULTADOS:
+"bloques de piedra" ⇒ repete 2 vezes
+"bloques" ⇒ repete 7 vezes
+"de" ⇒ repete 194 vezes
+"piedra" ⇒ repete 4 vezes
+```
+
+> **Nota:** Resultados obtidos em 14/12/2025. Os valores podem variar conforme atualizações na página da Wikipédia. 
+
+## Análise dos Resultados
+
+- **Frase completa:** "bloques de piedra" encontrada 2 vezes no texto
+- **Palavras individuais:** Cada palavra analisada separadamente
+- **Case insensitive:** Busca ignora maiúsculas/minúsculas
+- **Word boundaries:** Respeita fronteiras de palavras (não conta parciais)
+- **Encoding:** Suporte completo a acentos e caracteres especiais
+- 
 ## 🛠 Requisitos Técnicos
 
 - **Linguagem:** Java 21
